@@ -1,1 +1,0 @@
-# anand-koshy.github.io
