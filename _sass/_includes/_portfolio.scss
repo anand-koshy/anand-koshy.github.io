@@ -14,7 +14,7 @@
 	}
 
 	@include mq(monitor) {
-		padding: 0 15% 0 15%;
+		padding: 0 12% 0 12%;
 	}
 
 }
@@ -100,19 +100,4 @@
 	@include mq(laptop) {
 		font-size: $grid-item-subtitle-large;
 	}
-}
-
-
-
-.pagination {
-
-}
-
-.pagination__prev {
-	float: right;
-	margin-right: 10px;
-}
-
-.pagination__next {
-	float: right;
 }

@@ -30,8 +30,12 @@
 		padding: 80px 10% 80px 10%;
    }
 	
+}
 
-	
+.thematic__break{
+	margin: 30px 5% 25px 5%;
+	background: $text-light-color;
+	height: 1.5px;
 }
 
 .footer__logo {
@@ -60,14 +64,15 @@
 }
 
 .footer__text {
-	color: $text-light-color;
+	color: $text-dark-color;
+	font-weight: 340;
+	font-size: 18px;
 }
 
 .footer__copyright {
 	display: block;
-	margin-top: 10px;
 	font-size: 18px;
-	font-weight: 300;
+	font-weight: 340;
 	color: $text-dark-color;
 
 	a {
@@ -81,14 +86,14 @@
 	}
 
 	span {
-		margin-top: 20px;
+		margin-top: 10px;
 		display: inline-block;
 	}
 
 	@include mq(tabletp) {
 
 		span {
-			margin-top: 0;
+			margin-top: 10px;
 		}
 	}
 }

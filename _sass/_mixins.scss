@@ -13,7 +13,7 @@ $break-tabletp: 768px;
 $break-tabletl: 1024px;
 $break-laptop: 1220px;
 $break-desktop: 1420px;
-$break-monitor: 1560px;
+$break-monitor: 1920px;
 
 @mixin mq($media) {
 	@if $media == phonel {

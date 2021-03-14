@@ -10,8 +10,10 @@ header_settings:
 
 menu_settings:
   menu_items:
-    - title: 'Work'
+    - title: 'Home'
       url: '/'
+    - title: 'Work'
+      url: '/project/'
     # - title: 'Blog'
     #   url: '/blog/'
     - title: 'About'
@@ -22,7 +24,7 @@ menu_settings:
 footer_settings:
   logo_image: 
   logo_width: 200
-  footer_tagline: 
+  footer_tagline: 'Thanks for stopping by :)'
 
 grid_settings:
   overlay_opacity: 1
@@ -35,9 +37,9 @@ contact_settings:
   send_button_text: 'Send Message'
 
 social_settings:
-  facebook_url: 'facebook.com'
+  facebook_url: ''
   twitter_url: ''
-  instagram_url: 'instagram.com'
+  instagram_url: ''
   snapchat_url: ''
   youtube_url: ''
   google-plus_url: ''
@@ -49,10 +51,11 @@ social_settings:
   apple_url: ''
   android_url: ''
   tumblr_url: ''
-  dribbble_url: 'dribble.com'
+  linkedin_url: 'https://www.linkedin.com/in/anand-koshy/'
+  github_url: 'https://www.github.com/anand-koshy'
+  dribbble_url: 'https://www.dribble.com'
   behance_url: ''
   deviantart_url: ''
-  github_url: 'github.com'
   reddit_url: ''
   flickr_url: ''
   etsy_url: ''
@@ -60,7 +63,7 @@ social_settings:
   soundcloud_url: ''
   spotify_url: ''
   bandcamp_url: ''
-  linkedin_url: 'linkedin.com'
+  
 
 color_settings:
   background_color: '#ffffff'
@@ -77,7 +80,7 @@ color_settings:
   footer_color: '#ffffff'
 
 font_settings:
-  font_embed: '<link href="https://fonts.googleapis.com/css?family=Inter:100,200,300,360,400,440,500,600,700,800,900" rel="stylesheet">'
+  font_embed: '<link href="https://fonts.googleapis.com/css?family=Inter:100,200,300,340,360,400,440,500,600,700,800,900" rel="stylesheet">'
   title_font: '"Inter", sans-serif'
   body_font: '"Inter", sans-serif'
   regular_weight: 400
@@ -92,7 +95,7 @@ font_settings:
     small_size: 25
     medium_size: 30
     large_size: 35
-    weight: 500
+    weight: 400
     letter_spacing: -0.02
   menu:
     small_size: 50
