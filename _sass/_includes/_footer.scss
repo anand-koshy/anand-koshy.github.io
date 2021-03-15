@@ -34,7 +34,7 @@
 
 .thematic__break{
 	margin: 30px 5% 25px 5%;
-	background: $text-light-color;
+	background: $thematic-break-color;
 	height: 1.5px;
 }
 
@@ -101,7 +101,7 @@
 .footer .socials {
 	margin-top: 20px;
 
-	background: $footer_color;
+	background: $background-color;
 
 	@include mq(laptop) {
 		position: absolute;

@@ -16,9 +16,17 @@ featured_image: /images/social.jpg
 
 </section>
 
+
+
+
 <section class="portfolio">
 
+	<div class="content-wrap portfolio-wrap portfolio-wrap-title">
+		<h3>Recent Work</h3>
+	</div>
+
 	<div class="content-wrap portfolio-wrap">
+
 
 		{% for project in site.projects reversed limit:4 %} 
 		<div class="portfolio-item">
@@ -44,15 +52,8 @@ featured_image: /images/social.jpg
 <section class="pagination">
 
 	<div class="wrap">
-<!-- 
-		{% if paginator.previous_page %}
-		<a href="{{ paginator.previous_page_path | relative_url }}" class="button button--light pagination__prev"><i class="fa fa-angle-left" aria-hidden="true"></i> <span>Newer Posts</span></a>
-		{% endif %}
-		{% if paginator.next_page %}
-		<a href="{{ paginator.next_page_path | relative_url }}" class="button button--light pagination__next"><span>Older Posts</span> <i class="fa fa-angle-right" aria-hidden="true"></i></a>
-		{% endif %} -->
 
-		<a href="/about" class="button button--light pagination__next"><span>View All</span> <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+		<a href="/project/" class="button button--light pagination__next"><span>View All</span> <i class="fa fa-angle-right" aria-hidden="true"></i></a>
 
 	</div>
 
