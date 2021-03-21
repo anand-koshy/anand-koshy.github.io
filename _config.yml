@@ -48,8 +48,6 @@ kramdown:
 sass:
   sass_dir: _sass
   style: compressed
-  load_paths:
-        -  /Users/anandkoshy/.rbenv/versions/3.0.0/lib/ruby/gems/3.0.0/gems/bootstrap-4.3.1/assets/stylesheets
 
 plugins:
   - jekyll-paginate
