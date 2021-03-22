@@ -7,4 +7,4 @@ featured_image: /images/demo/demo-landscape.jpg
 
 <!-- {% include contact-form.html %} -->
 
-{% include test_bootstrap.html %}
+<!-- {% include test_bootstrap.html %} -->
