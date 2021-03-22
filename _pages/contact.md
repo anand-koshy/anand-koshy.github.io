@@ -5,6 +5,6 @@ description: Duet is a beautiful Jekyll portfolio theme.
 featured_image: /images/demo/demo-landscape.jpg
 ---
 
-<!-- {% include contact-form.html %} -->
 
-<!-- {% include test_bootstrap.html %} -->
+this is the contact page
+
