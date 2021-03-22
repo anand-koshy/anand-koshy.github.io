@@ -1,0 +1,32 @@
+// - - - - - - - - - - - - - - - - - -
+
+// About
+
+// - - - - - - - - - - - - - - - - - -
+
+.about{
+	padding: 0 $grid-spacing*2 0 $grid-spacing*2;
+
+    min-height: 55vh;
+
+    
+
+
+	@include mq(laptop) {
+		padding: 0 $grid-spacing*15 0 $grid-spacing*15; 
+        min-height: 45vh;
+		//max-width: 2400px;
+	}
+
+	@include mq(monitor) {
+		padding: 0 15% 0 15%;
+        min-height: 65vh;
+		//max-width: 1920px;
+	}
+}
+
+.about-wrap {
+	padding: 0;
+    
+}
+

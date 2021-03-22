@@ -17,7 +17,7 @@ menu_settings:
     # - title: 'Blog'
     #   url: '/blog/'
     - title: 'About'
-      url: '/about'
+      url: '/about/'
     # - title: 'Contact'
     #   url: '/contact'
 
@@ -96,14 +96,14 @@ font_settings:
   home_name:
     small_size: 25
     medium_size: 30
-    large_size: 35
+    large_size: 32
     weight: 400
     letter_spacing: -0.02
   menu:
     small_size: 50
     medium_size: 60
     large_size: 22
-    weight: 400
+    weight: 360
     letter_spacing: 0
   grid_item_title:
     small_size: 22

@@ -10,11 +10,12 @@
 
 	@include mq(laptop) {
 		padding: 0 $grid-spacing*10 0 $grid-spacing*10; 
-		//max-width: 70%;
+		//max-width: 2400px;
 	}
 
 	@include mq(monitor) {
-		padding: 0 12% 0 12%;
+		padding: 0 10% 0 10%;
+		//max-width: 1920px;
 	}
 
 }
@@ -52,6 +53,10 @@
 	padding: $grid-spacing/2;
 	float: left;
 	width: 50%;
+
+	@include mq(tabletl) {
+		padding: $grid-spacing;
+	}
 }
 
 .portfolio-item__link {

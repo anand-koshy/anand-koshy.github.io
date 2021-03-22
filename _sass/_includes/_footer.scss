@@ -11,8 +11,10 @@
 .footer {
 	@include transition(all 0.4s ease-in-out 0.8s);
 	padding: 40px 0;
+	
 
 	background: $footer_color;
+
 
 	@include mq(tabletp) {
 		padding: 50px 0;
@@ -28,6 +30,7 @@
 
 	@include mq(monitor) {
 		padding: 80px 10% 80px 10%;
+		max-width: 2560px;
    }
 	
 }

@@ -371,6 +371,8 @@ body.loading {
 
 	@include mq(monitor) {
 		padding: 0 10% 0 10%;
+		margin: auto;
+		max-width: 2560px;
    }
 
 }
@@ -412,7 +414,12 @@ section {
 
 	@include mq(laptop) {
 		max-width: 70%;
+		margin: auto;
 	}
+
+// 	@include mq(monitor) {
+// 		max-width: 2140px;
+//    }
 }
 
 
