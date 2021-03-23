@@ -401,11 +401,11 @@ section {
 	position: relative;
 	margin: 0 auto;
 	padding: 0 30px;
-	max-width: 500px;
+	max-width: 720px;
 
 	@include mq(tabletp) {
 		padding: 0;
-		max-width: 70%;
+		max-width: 75%;
 	}
 
 	@include mq(tabletl) {

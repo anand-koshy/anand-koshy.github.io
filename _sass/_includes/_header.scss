@@ -171,7 +171,7 @@
 	right: 0;
 	bottom: 0;
 	left: 0;
-	background: rgba($overlay-background-color,1);
+	background: rgba(#4A5859,1);
 	overflow: auto;
 
 	visibility: hidden;
@@ -200,7 +200,7 @@
 
 	@include mq(tabletp) {
 		padding: 40px 0 0;
-		max-width: 70%;
+		max-width: 80%;
 	}
 
 	@include mq(tabletl) {

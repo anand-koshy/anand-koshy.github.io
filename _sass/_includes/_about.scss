@@ -9,11 +9,15 @@
 
     min-height: 55vh;
 
-    
+    @include mq(tabletp) {
+		padding: 0 $grid-spacing*4 0 $grid-spacing*4; 
+        min-height: 55vh;
+		//max-width: 2400px;
+	}
 
 
 	@include mq(laptop) {
-		padding: 0 $grid-spacing*15 0 $grid-spacing*15; 
+		padding: 0 $grid-spacing*18 0 $grid-spacing*18; 
         min-height: 45vh;
 		//max-width: 2400px;
 	}

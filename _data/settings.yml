@@ -12,14 +12,10 @@ menu_settings:
   menu_items:
     - title: 'Home'
       url: '/'
-    - title: 'Work'
-      url: '/project/'
-    # - title: 'Blog'
-    #   url: '/blog/'
+    # - title: 'Work'
+    #   url: '/project/'
     - title: 'About'
       url: '/about/'
-    # - title: 'Contact'
-    #   url: '/contact'
 
 footer_settings:
   logo_image: 
@@ -71,12 +67,12 @@ color_settings:
   text_dark_color: '#ffffff'
   text_medium_color: '#ffffff'
   text_light_color: '#ffffff'
-  accent_color: '#F2784B'
+  accent_color: '#f20873'
   border_color: '#dddddd'
   overlay_background_color: '#1A1715'
   overlay_text_color: '#ffffff'
   overlay_subtitle_color: "#766A61"
-  overlay_accent_color: '#2A2F36'
+  overlay_accent_color: '#ada0a6'
   error_color: '#D64541'
   footer_color: '#000000'
   thematic_break_color: '#786C63'
