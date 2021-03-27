@@ -127,7 +127,7 @@
 		left: 0;
 		width: 100%;
 		height: 3px;
-		@include transition(all 0.1s);
+		@include transition(all .1s);
 		background: $text-dark-color;
 	}
 
@@ -176,7 +176,7 @@
 
 	visibility: hidden;
 	opacity: 0;
-	@include transition(all 0.2s ease-in-out);
+	@include transition(all .4s ease-in-out);
 
 	@include mq(tabletl) {
 		position: relative;
@@ -197,6 +197,7 @@
 	list-style: none;
 	margin: 0 auto;
 	padding: 30px;
+	
 
 	@include mq(tabletp) {
 		padding: 40px 0 0;
@@ -211,6 +212,8 @@
 }
 
 .menu__list__item {
+
+	transform: translateY(15px);
 
 	@include mq(tabletl) {
 		display: inline-block;
@@ -227,6 +230,13 @@
 	font-weight: $menu-weight;
 	color: $overlay-text-color;
 	padding: 10px 0;
+	
+
+	//@include transition(all 8.5s linear);
+
+	//@include transform(all 2.9s ease-in);
+
+	
 
 	&:hover {
 		color: $overlay-accent-color;

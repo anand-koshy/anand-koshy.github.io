@@ -52,9 +52,15 @@
 
 .portfolio-item {
 	position: relative;
-	padding: $grid-spacing/2;
+	padding: $grid-spacing/2 $grid-spacing/2 $grid-spacing*2 $grid-spacing/2;
 	float: left;
-	width: 50%;
+	width: 100%;
+
+
+	@include mq(tabletp) {
+		padding: $grid-spacing/2 ;
+		width: 50%;
+	}
 
 	@include mq(tabletl) {
 		padding: $grid-spacing;
@@ -131,4 +137,20 @@
 	@include mq(laptop) {
 		font-size: $grid-item-subtitle-large;
 	}
+}
+
+
+.portfolio-item__alt-title {
+	padding-top: $grid-spacing/2;
+	
+	@include mq(tabletp) {
+		display: none
+	}
+
+}
+
+.portfolio-item__alt-text {
+	font-size: 18px;
+	font-weight: 400;
+	
 }
