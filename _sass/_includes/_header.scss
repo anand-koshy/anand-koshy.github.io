@@ -67,7 +67,15 @@
 	color: $text-dark-color;
 
 	&:hover {
-		color: $accent-color;
+		color: $overlay-text-color;
+
+		background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23f20873' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+		background-position: 0 100%;
+		background-repeat: repeat-x;
+		background-size: auto 12%;
+		border-bottom: 0;
+		padding-bottom: .1em;
+		text-decoration: none;
 	}
 
 	@include mq(tabletp) {
@@ -218,6 +226,7 @@
 	@include mq(tabletl) {
 		display: inline-block;
 		margin-left: 45px;
+		transform: translateY(0px);
 
 		&:first-child {
 			margin-left: 0;
@@ -232,20 +241,22 @@
 	padding: 10px 0;
 	
 
-	//@include transition(all 8.5s linear);
-
-	//@include transform(all 2.9s ease-in);
-
-	
 
 	&:hover {
-		color: $overlay-accent-color;
+		color: $overlay-text-color;
+
+		background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23f20873' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+  		background-position: 0 100%;
+  		background-repeat: repeat-x;
+  		background-size: auto 12%;
+  		border-bottom: 0;
+  		padding-bottom: .1em;
+  		text-decoration: none;
 	}
 
 	@include mq(tabletp) {
 		font-size: $menu-medium;
 	}
-
 
 
 	@include mq(tabletl) {
@@ -254,8 +265,12 @@
 		color: $text-dark-color;
 		border-bottom: 2px solid transparent;
 
+		//this is for wavy underline
+		//text-decoration-line: 2px underline transparent;
+		//text-decoration-style: wavy;
+
 		&:hover {
-			color: $accent-color;
+			color: $overlay-text-color;
 		}
 	}
 
@@ -268,7 +283,13 @@
 
 		@include mq(tabletl) {
 			color: $text-dark-color;
-			border-color: $accent-color;
+			border-color: white;
+
+			// this is for wavy underline
+			// text-decoration-line: underline;
+			// text-decoration-style: wavy;
+			// text-decoration-color: $accent-color;
+			
 		}
 	}
 }

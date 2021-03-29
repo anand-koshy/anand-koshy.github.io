@@ -1,8 +1,8 @@
 basic_settings:
   
-  site_title: anand 
+  site_title: Anand Koshy 
   home_name: Anand Koshy
-  favicon_image: /images/favicon.png
+  favicon_image: /images/ak_favicon-512x512.png
 
 header_settings:
   logo_image: 
