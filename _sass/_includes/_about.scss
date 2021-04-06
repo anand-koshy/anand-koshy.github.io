@@ -6,8 +6,8 @@
 
 .about{
 	padding: 0 $grid-spacing*2 0 $grid-spacing*2;
-
     min-height: 55vh;
+
 
     @include mq(tabletp) {
 		padding: 0 $grid-spacing*4 0 $grid-spacing*4; 
@@ -27,6 +27,9 @@
         min-height: 65vh;
 		//max-width: 1920px;
 	}
+}
+.about-intro{
+
 }
 
 .about-wrap {

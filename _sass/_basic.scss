@@ -345,7 +345,7 @@ body.loading {
 
 .page,
 .page__content {
-	margin-top: 20px;
+	//margin-top: 20px;
 	position:relative;
     z-index:1;
 	float: left;
@@ -353,15 +353,15 @@ body.loading {
 	width: 100%;
 
 	@include mq(tabletp) {
-		margin-top: 30px;
+		//margin-top: 30px;
 	}
 
 	@include mq(tabletl) {
-		margin-top: 30px;
+		//margin-top: 30px;
 	}
 
 	@include mq(laptop) {
-		margin-top: 40px;
+		//margin-top: 40px;
 	}
 
 

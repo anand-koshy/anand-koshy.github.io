@@ -10,7 +10,7 @@ header_settings:
 
 menu_settings:
   menu_items:
-    - title: 'Home'
+    - title: 'Work'
       url: '/'
     # - title: 'Work'
     #   url: '/project/'
@@ -159,7 +159,7 @@ font_settings:
     small_size: 15
     medium_size: 17
     large_size: 19
-    weight: 360
+    weight: 400
     letter_spacing: 0
     line_height: 1.6
   blockquote:

@@ -32,10 +32,66 @@
 	<link href="https://fonts.googleapis.com/css?family=Inter:100,200,300,340,360,400,440,500,600,700,800,900" rel="stylesheet">
 	
 
-	<link rel="stylesheet" href="https://use.typekit.net/egf3xfd.css">
-	<script src="https://use.typekit.net/byb1rmq.js" async=""></script>
+	<!-- <link rel="stylesheet" id="moret-font" href="https://use.typekit.net/egf3xfd.css"> -->
 
-	<link href="https://fonts.googleapis.com/css?family=Spectral:100,200,300,340,360,400,440,500,600,700,800,900" rel="stylesheet">
+	<style type="text/css" id="moret-fonts">
+
+
+		@font-face {
+		font-family:"moret";
+		src:url("https://use.typekit.net/af/5c3bec/00000000000000003b9b379d/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n6&v=3") format("woff2"),url("https://use.typekit.net/af/5c3bec/00000000000000003b9b379d/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n6&v=3") format("woff"),url("https://use.typekit.net/af/5c3bec/00000000000000003b9b379d/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n6&v=3") format("opentype");
+		font-display:auto;font-style:normal;font-weight:600;
+		}
+		
+		@font-face {
+		font-family:"moret";
+		src:url("https://use.typekit.net/af/f0eab8/00000000000000003b9b379e/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i6&v=3") format("woff2"),url("https://use.typekit.net/af/f0eab8/00000000000000003b9b379e/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i6&v=3") format("woff"),url("https://use.typekit.net/af/f0eab8/00000000000000003b9b379e/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i6&v=3") format("opentype");
+		font-display:auto;font-style:italic;font-weight:600;
+		}
+		
+		@font-face {
+		font-family:"moret";
+		src:url("https://use.typekit.net/af/b0aec3/00000000000000003b9b379f/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff2"),url("https://use.typekit.net/af/b0aec3/00000000000000003b9b379f/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff"),url("https://use.typekit.net/af/b0aec3/00000000000000003b9b379f/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("opentype");
+		font-display:auto;font-style:normal;font-weight:700;
+		}
+		
+		@font-face {
+		font-family:"moret";
+		src:url("https://use.typekit.net/af/19a1fc/00000000000000003b9b37a0/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("woff2"),url("https://use.typekit.net/af/19a1fc/00000000000000003b9b37a0/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("woff"),url("https://use.typekit.net/af/19a1fc/00000000000000003b9b37a0/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("opentype");
+		font-display:auto;font-style:italic;font-weight:700;
+		}
+		
+	</style>
+
+	<style type="text/css" id="custom-fonts">
+		@font-face {
+			font-family: 'CustomSerifByAyakaIto-Italic';
+			src:	url('/fonts/CustomSerifByAyakaIto-Italic_V04.eot');
+			src:	url('/fonts/CustomSerifByAyakaIto-Italic_V04.eot?#iefix') format('embedded-opentype'),
+				url('/fonts/CustomSerifByAyakaIto-Italic_V04.woff') format('woff');
+			font-weight: normal;
+			font-style: italic;	
+		}@font-face {
+			font-family: 'CustomSerifByAyakaIto-Regular';
+			src:	url('/fonts/CustomSerifByAyakaIto-Regular_V02.eot');
+			src:	url('/fonts/CustomSerifByAyakaIto-Regular_V02.eot?#iefix') format('embedded-opentype'),
+				url('/fonts/CustomSerifByAyakaIto-Regular_V02.woff') format('woff');
+			font-weight: normal;
+			font-style: normal;	
+		}@font-face {
+			font-family: 'CustomSerifByAyakaIto-AllCaps';
+			src:	url('/fonts/CustomSerifByAyakaIto-AllCaps.eot');
+			src:	url('/fonts/CustomSerifByAyakaIto-AllCaps.eot?#iefix') format('embedded-opentype'),
+				url('/fonts/CustomSerifByAyakaIto-AllCaps.woff') format('woff'),
+				url('/fonts/CustomSerifByAyakaIto-AllCaps.ttf') format('truetype');
+			font-weight: normal;
+			font-style: normal;	
+		}
+	</style>
+	
+	<link href="https://fonts.googleapis.com/css?family=Merriweather:300,400,400,700,900" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Spectral:100,200,300,400,440,500,600,700,800,900" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,500,600,700,800,900" rel="stylesheet">
 
 
 	<!-- Styles -->
@@ -73,7 +129,7 @@
 	<div class="wrap">
 
 		
-		<a style="font-family: CustomSerifByAyakaIto-Italic; font-weight: 400;" href="/" class="header__title">
+		<a style="font-family: Spectral, serif; font-weight: 400;" href="/" class="header__title">
 			Anand Koshy
 		</a>
 		
@@ -86,7 +142,7 @@
 				<ul class="menu__list">
 					
 					<li class="menu__list__item">
-						<a href="/" class="menu__list__item__link">Home</a>
+						<a href="/" class="menu__list__item__link">Work</a>
 					</li>
 					
 					<li class="menu__list__item">

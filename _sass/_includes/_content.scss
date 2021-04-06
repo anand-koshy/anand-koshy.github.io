@@ -6,6 +6,8 @@
 
 .intro {
 	
+	margin-top: 0px;
+
 	h1 {
 		
 		@include mq(tabletp) {
@@ -16,6 +18,88 @@
 	p {
 
 	}
+}
+
+.landing-section{
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	margin: 0 auto;
+
+	max-width: 90%;
+
+	@include mq(tabletp) {
+		padding: 0;
+		max-width: 75%;
+	}
+
+	@include mq(tabletl) {
+		max-width: 70%;
+	}
+
+	@include mq(laptop) {
+		max-width: 70%;
+		margin: auto;
+	}
+
+}
+
+.landing-main{
+
+	text-align: right;
+	font-family: Spectral, serif; 
+	line-height: $h1-lineheight;
+	letter-spacing: $h1-spacing;
+
+
+	margin-bottom: 50%;
+	margin-left: 3%;
+	font-weight: 400;
+	font-size: 30px;
+
+
+	@include mq(tabletp) {
+		margin-bottom: 45%;
+		margin-left: 5%;
+		font-size: 45px;
+	}
+
+	@include mq(tabletl) {
+		margin-bottom: 35%;
+		margin-left: 5%;
+		font-size: 42px;
+	}
+
+	@include mq(laptop) {
+		margin-bottom: 20%;
+		margin-left: 5%;
+		font-size: 50px;		
+	}
+
+}
+
+
+
+.landing-sub-text{	
+
+	align-self: center;
+	font-size: 12px;
+	font-weight: 200;
+	text-align: center;
+	margin-bottom: 5px;
+
+	@include mq(tabletp) {
+		font-size: 14px;
+		margin-bottom: 10px;
+	}
+
+	@include mq(laptop) {
+		font-size: 15px;
+		margin-bottom: 10px;
+	}
+
+
 }
 
 .content-wrap {
