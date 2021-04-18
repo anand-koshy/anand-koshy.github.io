@@ -22,8 +22,20 @@ featured_image: /images/social.jpg
 		<!-- <p>Lorem ipsum dolor sit amet</p> -->
 		<div class="landing-main">
 			<div>Hi, I'm Anand.</div>
-			<div class="type">I’m a designer exploring the worlds of UI/UX design, graphic design, and branding.</div>
+			<div id="typing-animation"></div>
 		</div>
+
+
+		<script src="{{ '/js/typeIt-min.js' | relative_url }}"></script>
+		<script>
+			new TypeIt("#typing-animation", {
+				strings: "I’m a designer exploring the worlds of UI/UX design, graphic design, and branding.",
+				startDelay: 750,
+				speed: 70,
+				loop: false,
+				lifeLike: true
+			}).go();
+		</script>
 
 
 		<!-- <div class= "landing-sub">

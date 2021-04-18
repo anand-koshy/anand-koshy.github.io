@@ -117,11 +117,13 @@
 	<!-- Extra Header JS Code -->
 	
 	
+
+	
 	
 </head>
 
 
-<body class="loading ajax-loading" data-site-url="http://localhost:4000" data-page-url="/">
+<body class="loading" data-site-url="http://localhost:4000" data-page-url="/">
 
 
 	<header class="header">
@@ -184,8 +186,20 @@
 		<!-- <p>Lorem ipsum dolor sit amet</p> -->
 		<div class="landing-main">
 			<div>Hi, I'm Anand.</div>
-			<div class="type">I’m a designer exploring the worlds of UI/UX design, graphic design, and branding.</div>
+			<div id="typing-animation"></div>
 		</div>
+
+
+		<script src="/js/typeIt-min.js"></script>
+		<script>
+			new TypeIt("#typing-animation", {
+				strings: "I’m a designer exploring the worlds of UI/UX design, graphic design, and branding.",
+				startDelay: 750,
+				speed: 70,
+				loop: false,
+				lifeLike: true
+			}).go();
+		</script>
 
 
 		<!-- <div class= "landing-sub">
@@ -387,7 +401,7 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script src="/js/plugins-min.js"></script>
 	<script src="/js/utility_functions-min.js"></script>
-	<script src="/js/type_writer-min.js"></script>
+	
 
 	
 	<!-- Extra Footer JS Code -->
