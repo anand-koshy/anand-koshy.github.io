@@ -1,0 +1,1 @@
+var i=0,txt="I’m a designer exploring the worlds of UI/UX design, graphic design, and branding.",speed=50;function typeWriter(){i<txt.length&&(document.getElementById("animated_text").innerHTML+=txt.charAt(i),i++,setTimeout(typeWriter,speed))}

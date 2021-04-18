@@ -41,3 +41,82 @@
     margin-top: 0;
 }
 
+.about__link{
+	//font-size: $menu-small;
+	font-weight: 360;
+	border-bottom: 1px solid transparent;
+	border-color: white;
+
+	&:hover {
+		color: $overlay-text-color;
+
+		background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23f20873' stroke-width='1.5' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+  		background-position: 0 100%;
+  		background-repeat: repeat-x;
+  		background-size: auto 12%;
+  		border-bottom: 0;
+  		padding-bottom: .1em;
+  		text-decoration: none;
+	}
+}
+
+
+.about__subtext{
+	line-height: 1.6;
+	font-size: 14px;
+	font-weight: 360;
+
+	@include mq(tabletp) {
+		font-size: 16px;
+	}
+
+	@include mq(laptop) {
+		font-size: 17px;
+	}
+}
+
+
+.about__section{
+	margin-bottom: 50px;
+
+
+	@include mq(tabletp) {
+		margin-bottom: 85px;
+
+	}
+}
+
+.about__left_column{
+	
+	margin-bottom: 15px;
+
+	@include mq(laptop) {
+		margin-left: 15px;
+		margin-bottom: 0px;
+
+	}
+}
+
+
+.about__right_column{
+
+
+	@include mq(tabletp) {
+		margin-left: 25px;
+
+	}
+	@include mq(laptop) {
+		margin-left: 55px;
+
+	}
+	
+}
+
+.tools_column{
+	margin-top: 20px;
+
+	@include mq(tabletp) {
+		margin-top: 0px;
+
+	}
+}
