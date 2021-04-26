@@ -61,18 +61,8 @@
 }
 
 
-.about__subtext{
-	line-height: 1.6;
-	font-size: 14px;
-	font-weight: 360;
-
-	@include mq(tabletp) {
-		font-size: 16px;
-	}
-
-	@include mq(laptop) {
-		font-size: 17px;
-	}
+.about__subheading {
+	color: $text-subheader-color;
 }
 
 

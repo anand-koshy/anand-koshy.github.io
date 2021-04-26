@@ -19,9 +19,10 @@ $background-color: {{ site.data.settings.color_settings.background_color }};
 $background-alt-color: {{ site.data.settings.color_settings.background_alt_color }};
 $border-color: {{ site.data.settings.color_settings.border_color }};
 
-$text-dark-color: {{ site.data.settings.color_settings.text_dark_color }};
-$text-medium-color: {{ site.data.settings.color_settings.text_medium_color }};
-$text-light-color: {{ site.data.settings.color_settings.text_light_color }};
+$text-header-color: {{ site.data.settings.color_settings.text_header_color }};
+$text-subheader-color: {{ site.data.settings.color_settings.text_subheader_color }};
+$text-body-color: {{ site.data.settings.color_settings.text_body_color }};
+$text-accent-color: {{ site.data.settings.color_settings.text_accent_color }};
 
 $accent-color: {{ site.data.settings.color_settings.accent_color }};
 
@@ -170,4 +171,5 @@ $grid-spacing: {{ site.data.settings.grid_settings.grid_spacing }}em;
 @import "_includes/_portfolio";
 @import "_includes/_blog";
 @import "_includes/_about";
+@import "_includes/_project";
 

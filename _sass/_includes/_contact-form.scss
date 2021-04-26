@@ -60,7 +60,7 @@
 	display: block;
 	font-size: $p-small;
 	font-weight: $bold-weight;
-	color: $text-medium-color;
+	color: $text-body-color;
 
 	@include mq(tabletp) {
 		font-size: $p-medium;
@@ -81,7 +81,7 @@
 	background: $background-color;
 	font-size: $p-small;
 	line-height: 1.4;
-	color: $text-dark-color;
+	color: $text-body-color;
 	@include transition(all 0.15s ease-in-out);
 
 	@include mq(tabletp) {
@@ -100,16 +100,16 @@
 }
 
 ::-webkit-input-placeholder {
-	color: lighten($text-light-color,15%);
+	color: lighten($text-body-color,15%);
 }
 ::-moz-placeholder {
-	color: lighten($text-light-color,15%);
+	color: lighten($text-body-color,15%);
 }
 :-ms-input-placeholder {
-	color: lighten($text-light-color,15%);
+	color: lighten($text-body-color,15%);
 }
 :-moz-placeholder {
-	color: lighten($text-light-color,15%);
+	color: lighten($text-body-color,15%);
 }
 
 .contact-form__textarea {

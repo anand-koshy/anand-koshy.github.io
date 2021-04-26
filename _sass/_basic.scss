@@ -17,7 +17,7 @@ body {
 	font-weight: $regular-weight;
 	font-style: normal;
 	line-height: 1;
-	color: $text-medium-color;
+	color: $text-body-color;
 }
 
 
@@ -26,7 +26,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
 	font-family: $title-font;
-	color: $text-dark-color;
+	color: $text-header-color;
 
 	&:first-child {
 		margin-top: 0;
@@ -153,12 +153,13 @@ p, ul, ol {
 }
 
 ul, ol {
-	list-style-position: inside;
+	list-style-position: outside;
+	list-style-type: square;
 }
 
 blockquote {
 	margin-top: 15px;
-	border-left: 2px solid $text-dark-color;
+	border-left: 2px solid $text-header-color;
 	padding: 10px 0 10px 20px;
 	font-size: $blockquote-small;
 	font-weight: $blockquote-weight;
@@ -195,7 +196,7 @@ blockquote {
 
 a {
 	text-decoration: none;
-	color: $text-dark-color;
+	color: $text-header-color;
 	font-weight: $bold-weight;
 	@include transition(all 0.15s ease-in-out);
 
@@ -258,8 +259,8 @@ a {
 
 .button--light {
 	background: transparent;
-	border-color: $text-dark-color;
-	color: $text-dark-color;
+	border-color: $text-header-color;
+	color: $text-header-color;
 
 	&:hover {
 		background: $accent-color;
@@ -339,7 +340,7 @@ body.loading {
 	svg {
 		width: 100%;
 		height: 100%;
-		fill: rgba($text-dark-color,0.2);
+		fill: rgba($text-header-color,0.35);
 	}
 }
 

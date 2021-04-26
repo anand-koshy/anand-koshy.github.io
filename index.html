@@ -1,25 +1,13 @@
 ---
 layout: default
 title: Portolio
-description: collection of things i've worked on
-featured_image: /images/social.jpg
+description: Hi, I'm Anand. I’m a designer exploring the worlds of UI/UX design, graphic design, and branding.
 ---
 
-<section style="background-color: #000 ; min-height: 100vh;" class="intro">
+<section style="min-height: 100vh;" class="intro">
 
 	<div class="landing-section">
 
-		<!-- <br>
-		<h1 style="font-family: Playfair Display, serif; font-weight: 400;">Anand Koshy, Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore. </h1>
-
-		<br>
-		<h1 style="font-family: Merriweather, serif; font-weight: 300;">Anand Koshy, Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore. </h1>
-
-		<br>
-
-		<h1 style="font-family: CustomSerifByAyakaIto-Regular, serif; font-weight: 400; letter-spacing: -0.07222222222222223rem;" > Anand Koshy, Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</h1> -->
-
-		<!-- <p>Lorem ipsum dolor sit amet</p> -->
 		<div class="landing-main">
 			<div>Hi, I’m Anand.</div>
 			<div id="typing-animation"></div>
@@ -51,17 +39,62 @@ featured_image: /images/social.jpg
 
 </section>
 
+<section>
+	<div id="portfolio_target">
+
+	</div>
+
+</section>
+
+<section class="portfolio">
+
+	<div  class="containter content-wrap">
+		<div class="row">
+			<div class="portfolio__item col-md-6">
+				<div class="row">
+					<div class="portfolio__item-number col-1 col-sm-1 no-gutters">
+						<p>01</p>
+					</div>
+					<div class="col-11 col-sm-11">
+						<a class="portfolio__item-link" href="/project/ios-gesture-control">
+							<img class="portfolio__item-image" src="/images/ios_gesture_control/home.png" alt="iOS Gesture Control Design">
+							<p class="portfolio__item-category">UX Research</p>
+							<h5 class="portfolio__item-title"><span>iOS Gesture Control Design</span></h5>
+							<h6 class="portfolio__item-subtitle">Human Computer Interaction - Johns Hopkins University</h6>
+						</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="portfolio__item col-md-6">
+				<div class="row">
+					<div class="portfolio__item-number col-1 col-sm-1 no-gutters">
+						<p>02</p>
+					</div>
+					<div class="col-11 col-sm-11">
+						<a class="portfolio__item-link" href="/">
+							<img class="portfolio__item-image" src="/images/ios_gesture_control/home.png" alt="iOS Gesture Control Design">
+							<p class="portfolio__item-category">Misc</p>
+							<h5 class="portfolio__item-title"><span>More Work Coming Soon</span></h5>
+							<h6 class="portfolio__item-subtitle">Promise!!</h6>
+						</a>
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+	</div>
 
 
+</section>
 
-<section id="portfolio_target"class="portfolio">
+<!-- <section id="portfolio_target" class="portfolio">
 
 	<div class="content-wrap portfolio-wrap portfolio-wrap-title">
-		<!-- <h3>Select Work</h3> -->
 	</div>
 
 	<div class="content-wrap portfolio-wrap">
-
 
 		{% for project in site.projects reversed limit:4 %} 
 		<div class="portfolio-item">
@@ -75,14 +108,17 @@ featured_image: /images/social.jpg
 						<p class="portfolio-item__subtitle">{{ project.subtitle }}</p>
 					</div>
 				</div>
+				<div class="portfolio-item__alt-title">
+					<p class="portfolio-item__alt-text">{{project.category}}</p>
+					<p class="portfolio-item__alt-text">{{project.title}}</p>
+					<p class="portfolio-item__alt-text">{{project.subtitle}}</p>
+				</div>
 			</a>
-			<div class="portfolio-item__alt-title">
-				<p class="portfolio-item__alt-text">{{project.title}}</p>
-			</div>
+
 		</div>
 		{% endfor %}
 
 	</div>
 
-</section>
+</section> -->
 
