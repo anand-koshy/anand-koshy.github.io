@@ -5,11 +5,36 @@
 // - - - - - - - - - - - - - - - - - -
 
 
+
+
 #typing-animation {
     color: $text-subheader-color;
 }
 
 
+//// - - - - - - - - - - - - - - - - - -
+// Portfolio Item Margins
+
+#portfolio__item-2{
+
+    @include mq(tabletp) {
+
+        margin-top: 40px;	
+	}
+
+	@include mq(laptop) {
+
+        margin-top: 35px;	
+	}
+
+	@include mq(monitor) {
+        margin-top: 40px;	
+
+	}
+
+}
+
+//// - - - - - - - - - - - - - - - - - -
 
 
 
@@ -27,7 +52,7 @@
 
 	@include mq(laptop) {
 		padding: 0 $grid-spacing*10 0 $grid-spacing*10; 
-        min-height: 55vh;
+        min-height: 65vh;
         margin-top: 100px;	
 	}
 
