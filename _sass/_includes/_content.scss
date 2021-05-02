@@ -53,33 +53,36 @@
 	letter-spacing: $h1-spacing;
 
 
-	margin-bottom: 50%;
-	margin-left: 3%;
+	padding-top: 30%;
+	padding-left: 3%;
 	font-weight: 400;
 	font-size: 30px;
 
+	min-height: 70vh;
+
 
 	@include mq(tabletp) {
-		margin-bottom: 45%;
-		margin-left: 5%;
+		padding-top: 25%;
+		padding-left: 15%;
 		font-size: 45px;
 	}
 
 	@include mq(tabletl) {
-		margin-bottom: 35%;
-		margin-left: 5%;
+		padding-top: 20%;
+		padding-left: 10%;
 		font-size: 42px;
 	}
 
 	@include mq(laptop) {
-		margin-bottom: 20%;
-		margin-left: 15%;
+		
+		padding-top: 12%;
+		padding-left: 10%;
 		font-size: 62px;		
 	}
 
 	@include mq(monitor) {
-		margin-bottom: 35%;
-		margin-left: 15%;
+		padding-top: 20%;
+		padding-left: 15%;
 		font-size: 62px;		
 	}
 
