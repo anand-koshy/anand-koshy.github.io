@@ -9,8 +9,6 @@
 
 #typing-animation {
     color: $text-subheader-color;
-    
-
 }
 
 
@@ -183,7 +181,7 @@ html body [data-ca3_iconfont="ETmodules"]::before {
     
     display: inline-block;
     color: $text-header-color;
-    line-height: normal;
+    line-height: 1.6;
     font-weight: 600;
     margin-top: 5px;
     font-size: 20px;
@@ -202,7 +200,7 @@ html body [data-ca3_iconfont="ETmodules"]::before {
     color: $text-subheader-color;
     font-weight: 360;
     line-height: normal;
-    margin-top: 5px;
+    margin-top: 2px;
     font-size: 17px;
 
     @include mq(tabletp) {

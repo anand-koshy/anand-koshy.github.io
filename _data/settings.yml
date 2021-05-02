@@ -93,10 +93,10 @@ font_settings:
     weight: 700
     letter_spacing: -0.02
   home_name:
-    small_size: 25
-    medium_size: 30
-    large_size: 32
-    weight: 400
+    small_size: 22
+    medium_size: 25
+    large_size: 25
+    weight: 440
     letter_spacing: -0.02
   menu:
     small_size: 50
